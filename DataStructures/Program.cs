@@ -7,13 +7,13 @@ namespace DataStructures
         static void Main(string[] args)
         {
             Console.WriteLine("This Is Datastructure  programs");
-            StackOperations stack = new StackOperations();
-            stack.push(56);
-            stack.push(30);
-            stack.push(70);
-            stack.Peek();
-            stack.Pop();
-            stack.Display();
+            QueueOperations queue = new QueueOperations();
+            queue.Enqueue(56);
+            queue.Enqueue(30);
+            queue.Enqueue(70);
+            queue.Dequeue();
+            queue.Display();
+            Console.ReadLine();
         }
     }    
 }
